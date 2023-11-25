@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>DP Pathshala Student Portal</title>
+  </head>
+  <body class="loginParent">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="./svgs/book.svg" alt="Book" />
+        <a href="#home" class="link"> DP Student Portal </a>
+      </div>
+      <ul class="nav__ul">
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="dashboard.html" class="link">Dashboard</a></li>
+        <li><a href="profile.html" class="link">Profile</a></li>
+        <li><a href="login.html" class="link activeLink">LogIn</a></li>
+      </ul>
+    </nav>
+    <section class="login">
+      <h2 class="login-h2">Login</h2>
+      <p class="login-p">
+        Don't have an account? <span>Create your account</span>, it takes less
+        than a minute.
+      </p>
+      <form action="" class="login-form">
+        <div class="login-form__inputBox">
+          <label for="username">Username</label>
+          <input
+            id="username"
+            type="text"
+            placeholder="your username"
+            class="login-form__input"
+          />
+        </div>
+        <div class="login-form__inputBox">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="text"
+            placeholder="your password"
+            class="login-form__input"
+          />
+        </div>
+
+        <div class="login-form__remFor">
+          <div><input type="checkbox" /> <span>Remember Me</span></div>
+          <span> Forgot Password? </span>
+        </div>
+
+        <button class="primaryBtn">Login</button>
+      </form>
+    </section>
+    <footer>
+      <p>2023 © Copyright DP Student Portal</p>
+      <p>Terms of service Privacy Policy</p>
+    </footer>
+  </body>
+</html>

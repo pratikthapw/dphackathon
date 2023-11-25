@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+.header-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.header-inputParent {
+  width: 60%;
+  position: relative;
+  background: var(--white);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+
+  border-radius: 25px;
+}
+
+.header-input {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  border-radius: 25px;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.header-search {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  color: var(--purple);
+}
+
+.header-profile__img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.header-profile__name {
+  font-weight: var(--semiBold);
+}
+
+.overview {
+  background: var(--purpleLight);
+  margin: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+.overview-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.overview-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: flex-end;
+  text-align: center;
+}
+.overview-h3 {
+  font-weight: var(--semiBold);
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.courses {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses-enroll {
+  font-weight: var(--semiBold);
+}
+.courses-seeAll {
+  color: var(--purple);
+  font-weight: var(--semiBold);
+}
+.courses-boxes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.courses-box {
+  display: flex;
+  gap: 1rem;
+  background: var(--purpleLight);
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+}
+.courses-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.courses-img {
+  width: 4rem;
+}
+
+.notice-box {
+  background: var(--white);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notice-h3 {
+  font-weight: var(--semiBold);
+}
+
+.certificate-boxes {
+  display: flex;
+  gap: 1rem;
+}
+.certificate-box {
+  background: var(--white);
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.certificate-img {
+  height: 3rem;
+  width: 3rem;
+  background: var(--purpleLight);
+  border-radius: 50%;
+  padding: 1rem;
+}
+.certificate-title {
+  font-weight: var(--semiBold);
+  color: var(--purple);
+}

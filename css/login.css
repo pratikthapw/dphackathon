@@ -1,0 +1,46 @@
+.loginParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 1rem;
+  background: var(--white);
+  padding: 2rem 1rem;
+  border-radius: 6px;
+}
+
+.login-h2 {
+  font-size: 1.5rem;
+  font-weight: var(--medium);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login-form__inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login-form__input {
+  padding: 0.5rem;
+}
+
+.login-form__remFor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+  .login {
+    padding: 2rem 5rem;
+  }
+}

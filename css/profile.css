@@ -1,0 +1,38 @@
+.profile-header {
+  margin: 0 1rem;
+  padding: 1rem;
+  background: var(--white);
+  color: var(--lightDark);
+  border-radius: 8px;
+  font-weight: var(--bold);
+  font-size: 1.2rem;
+}
+.profile-details {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile-img {
+  align-self: center;
+  height: 7rem;
+  width: 7rem;
+}
+.profile-form {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.profile-inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.profile-label {
+  font-weight: var(--semiBold);
+}
+.profile-display {
+  background: var(--white);
+  padding: 0.8rem;
+  border-radius: 4px;
+}

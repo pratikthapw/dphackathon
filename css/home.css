@@ -1,0 +1,135 @@
+.hero-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.hero-area__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.hero-area__img {
+  height: 30rem;
+}
+
+.hero-area__p {
+  color: var(--purple);
+  font-weight: var(--semiBold);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-area__h3 {
+  font-size: 1.8rem;
+  font-weight: var(--medium);
+}
+
+.hero-area__btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 468px) {
+  .hero-area {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-area__text {
+    gap: 2rem;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+  flex-wrap: no-wrap;
+  gap: 1rem;
+}
+
+.cards-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cards-box {
+  background: var(--purpleLight);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem 2rem;
+}
+
+.cards-box__h3 {
+  font-weight: var(--semiBold);
+}
+
+.cards-box__img {
+  height: 2rem;
+  width: 2rem;
+  align-self: center;
+}
+
+.cards-box__p {
+  text-align: center;
+}
+
+@media screen and (min-width: 468px) {
+  .cards-child {
+    flex-direction: row;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-text__h3 {
+  color: var(--purple);
+  font-weight: var(--semiBold);
+}
+
+.about-text__h2 {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 468px) {
+  .about {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .about-img {
+    height: 25rem;
+  }
+}
+.course-rating {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.courses-img {
+  height: 2rem;
+  width: 2rem;
+}
